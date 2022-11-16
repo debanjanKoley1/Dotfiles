@@ -1,0 +1,16 @@
+configuration {
+  show-icons : false;
+}
+
+inputbar {
+  children: [prompt, entry];
+}
+
+element selected {
+  text-color: @red;
+}
+
+listview {
+  lines: 3;	
+}
+
